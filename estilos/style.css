@@ -1,2 +1,51 @@
 @charset "UTF-8";
 
+/* cores : #244C5C 
+           #0E5C3D > verde
+*/  
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body, html{
+    background-color: #244C5C;
+}
+
+  section#login {
+    width: 260px;
+    height: 540px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.583);
+    transition: width 1s, height 1s;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 25px;
+}
+
+section#login > div#imagem {
+    display: block;
+    background-image: url(../imagens/pexels-manu-messina-2408661.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 240px;
+    
+}
+
+section#login > #formulario h1 {
+    text-align: center;
+    margin: 9px;
+}
+
+section#login > #formulario {
+    display: block;
+    padding: 8px;
+}
+
+    
